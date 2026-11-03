@@ -12,7 +12,7 @@ export default function Dashboard({students}) {
 
             </div>
 
-            <div>
+            <div className="w-full flex justify-center items-center mt-10">
                 <p>This is about showing you how CI/CD works in our application.</p>
                 <p>I you have any questions, feel free to ask!</p>
             </div>
