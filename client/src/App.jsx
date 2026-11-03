@@ -28,7 +28,7 @@ export default function App() {
     <div>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Home" element={<Layout />}>
+        <Route path="Home" element={<Layout />}>
           <Route index element={<Dashboard students={ students} />} />
           <Route path="students" element={<Students students={students} />} />
           <Route path="addstudent" element={<AddStudent loadStudents={loadStudents} setStudents={setStudents} />} />

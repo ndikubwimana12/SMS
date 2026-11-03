@@ -57,7 +57,7 @@ function Home() {
                         </Link>
 
                         <a
-                            href="Dashboard"
+                            href="home"
                             className="border border-slate-300 px-7 py-3 rounded-lg font-semibold hover:bg-white"
                         >
                             Explore Services
