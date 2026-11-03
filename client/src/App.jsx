@@ -27,7 +27,7 @@ export default function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <
         <Route path="Home" element={<Layout />}>
           <Route index element={<Dashboard students={ students} />} />
           <Route path="students" element={<Students students={students} />} />
