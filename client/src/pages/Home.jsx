@@ -33,7 +33,7 @@ function Home() {
             </nav>
 
 
-            <section className="bg-blue-900">
+            <section className="bg-blue-100">
                 <div className="max-w-6xl mx-auto px-6 py-24 text-center">
 
 
