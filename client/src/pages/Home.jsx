@@ -43,9 +43,7 @@ function Home() {
                     </h2>
 
                     <p className="max-w-2xl mx-auto text-lg text-slate-600 leading-relaxed mb-8">
-                        We provide technology solutions, professional training
-                        and practical digital skills to help individuals and
-                        businesses grow in a connected world.
+                        We are BTECH class and we are learning abaout CI/CD and how to implement it in our application. This is a simple application that we have built to demonstrate the concept of CI/CD.
                     </p>
 
                     <div className="flex justify-center gap-4 flex-wrap">
