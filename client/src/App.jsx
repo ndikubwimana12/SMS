@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom'
 import Dashboard from "./pages/Dashboard"
 import Students from "./pages/Students"
 import AddStudent from "./pages/AddStudent"
-import Home from "./pages/Dashboard"
+import Home from "./pages/Home"
 import EditStudent from "./pages/EditStudent"
 export default function App() {
 
@@ -28,7 +28,7 @@ export default function App() {
     <div>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="Dashboard" element={<Layout />}>
+        <Route path="/Home" element={<Layout />}>
           <Route index element={<Dashboard students={ students} />} />
           <Route path="students" element={<Students students={students} />} />
           <Route path="addstudent" element={<AddStudent loadStudents={loadStudents} setStudents={setStudents} />} />
