@@ -11,6 +11,11 @@ export default function Dashboard({students}) {
                 <DashboardCard role="Active Students" number="810" />
 
             </div>
+
+            <div>
+                <p>This is about showing you how CI/CD works in our application.</p>
+                <p>I you have any questions, feel free to ask!</p>
+            </div>
         </div>
     )
 }
