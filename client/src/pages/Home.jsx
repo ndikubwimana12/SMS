@@ -32,13 +32,10 @@ function Home() {
                 </div>
             </nav>
 
-            {/* Welcome Section */}
+
             <section className="bg-slate-50">
                 <div className="max-w-6xl mx-auto px-6 py-24 text-center">
 
-                    <p className="text-blue-600 font-semibold mb-4">
-                        WELCOME TO CODERWANDA TECH
-                    </p>
 
                     <h2 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
                         Empowering People Through
@@ -84,7 +81,6 @@ function Home() {
 
             </section>
 
-            {/* Services Section */}
             <section id="services" className="bg-slate-50 py-16">
 
                 <div className="max-w-6xl mx-auto px-6">
